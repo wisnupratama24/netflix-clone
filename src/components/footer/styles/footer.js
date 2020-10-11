@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Title = styled.p`
   font-size: 16px;
   color: #757575;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 `;
 
 export const Row = styled.div`
