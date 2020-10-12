@@ -48,6 +48,7 @@ export const Button = styled.button`
     font-size: 16px;
     max-width: 100%;
     height: 40px;
+    padding: 0 25px;
   }
 `;
 
