@@ -2,17 +2,23 @@ import styled from "styled-components/macro";
 import { Link as ReactRouterLink } from "react-router-dom";
 
 export const Background = styled.div`
-  padding-top: 20px;
-  margin: 0 45px;
-
-  @media (max-width: 600px) {
-    margin: 0 30px;
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 0 0 40px 0;
+  background: url(${({ src }) =>
+      src ? `../images/misc/${src}.jpg` : `../images/misc/home-bg.jpg`})
+    top left / cover no-repeat;
 `;
 
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
+  margin: 0 45px;
+  @media (max-width: 600px) {
+    margin: 0 30px;
+  }
 `;
 
 export const Logo = styled.img`

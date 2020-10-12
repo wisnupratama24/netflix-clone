@@ -14,23 +14,27 @@ export const Container = styled.div`
 
 export const Input = styled.input`
   padding: 20px 10px;
-  width: 70%;
-
+  width: 480px;
+  border-radius: 4px 0 0 4px;
+  border: none;
   @media (max-width: 600px) {
-    width: 100%;
+    border-radius: 4px;
+    width: 85%;
   }
 `;
 
 export const Button = styled.button`
   background-color: red;
-  border: 0;
+  border: none;
   text-transform: uppercase;
   color: white;
   max-width: 30%;
   display: flex;
   font-size: 20px;
+  font-weight: medium;
   align-items: center;
   padding-left: 10px;
+  border-radius: 0 4px 4px 0;
 
   img {
     margin-left: 10px;
@@ -38,6 +42,7 @@ export const Button = styled.button`
     filter: brightness(0) invert(1);
 
     @media (max-width: 600px) {
+      border-radius: 4px;
       width: 16px;
     }
   }
@@ -53,6 +58,8 @@ export const Button = styled.button`
 `;
 
 export const Text = styled.p`
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
+  color: white;
+  padding-bottom: 40px;
 `;

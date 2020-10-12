@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
         background-color: black;
         color : #333333;
-
+        overflow-x:hidden;
     }
 
 `;
