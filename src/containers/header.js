@@ -8,7 +8,7 @@ export default function HeaderContainer({ children }) {
     <Header>
       <Header.Container>
         <Header.Logo src={logo} alt="logo" to={ROUTES.HOME} />
-        <Header.Button> Sign In </Header.Button>
+        <Header.Button to={ROUTES.SIGN_IN}> Sign In </Header.Button>
       </Header.Container>
       <Feature>
         <Feature.Title>
