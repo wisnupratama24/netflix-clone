@@ -24,6 +24,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
+  cursor: pointer;
   background-color: red;
   border: none;
   text-transform: uppercase;
