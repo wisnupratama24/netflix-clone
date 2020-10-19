@@ -77,6 +77,7 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
         </Maturity>
         <FeatureText fontWeight="bold">{itemFeature.genre}</FeatureText>
       </Group>
+      {children}
     </Feature>
   ) : null;
 };

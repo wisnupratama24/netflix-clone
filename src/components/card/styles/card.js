@@ -147,7 +147,7 @@ export const Maturity = styled.div`
 `;
 export const Feature = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: url(${({ src }) => src});
   background-size: contain;
   position: relative;
@@ -169,14 +169,14 @@ export const Feature = styled.div`
       font-size: 14px;
     }
   }
+  ${Group} {
+    margin-top: -30px;
+    margin-left: 50px;
+  }
 
   @media (max-width: 600px) {
-    flex-direction: column;
-
     ${Group} {
       margin-top: -10px;
-    }
-    ${Maturity} {
       margin-left: 30px;
     }
   }
